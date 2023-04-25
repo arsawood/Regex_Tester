@@ -12,7 +12,6 @@ const RegexComp = () => {
     const matches = text1.match(regex);
     if (matches) {
       setMatchedText(matches.join(" "));
-      // setMatchedText("Regex Matches Highlighted Text")
     } else {
       setMatchedText("No matches found");
     }
@@ -47,10 +46,6 @@ const RegexComp = () => {
                 <button className="match_button" onClick={handleMatch}>
                   Apply Regex
                 </button>
-                <span>
-                  {/* {
-                  matchedText ? "Regex Matches Highlighted Text" :!matchedText ? "No Matches" : " "} */}
-                </span>
                 <p className="matched_text">
                   Matched Text: <mark>{matchedText}</mark>
                 </p>
