@@ -1,0 +1,18 @@
+.tab_bar {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0px 20px 0px 20px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.tab.active {
+  color: white;
+  background-color: #191970;
+}

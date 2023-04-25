@@ -1,0 +1,37 @@
+.regex_testing {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  margin: 5px;
+  padding: 5px;
+}
+
+.accordion {
+  margin: 1rem;
+}
+.text_matcher_container {
+  max-width: 40rem;
+  margin: 1rem;
+}
+
+.input_field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.match_button {
+  display: block;
+  width: 10rem;
+  padding: 8px;
+  background-color: #191970;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.matched_text {
+  margin-top: 8px;
+}

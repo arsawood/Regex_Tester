@@ -1,0 +1,18 @@
+.tiles_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(227, 225, 225);
+  color: black;
+  font-size: 24px;
+  margin: 15px;
+  text-decoration: none;
+}
